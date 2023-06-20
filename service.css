@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+.nav-bar
+{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar img
+{
+    width: 9%;
+    margin: 0.3% 2.5%;
+}
+
+.nav-bar div
+{
+    width: 57%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.links
+{
+    display: flex;
+    margin: 5% 2.5%;
+    font-size: 20px;
+    text-decoration:none;
+    letter-spacing: 1px;
+    color: black;
+    position: relative;
+}
+.links:after
+{
+  content: '';
+  position: absolute;
+  width: 0; height: 3px;
+  display: block;
+  margin-top: 30px;
+  right: 0;
+  background: blue;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+.links:hover:after
+{
+    width: 100%;
+    left: 0;
+    background: blue;
+}
+.links1
+{
+    display: flex;
+    margin: 5% 2.5%;
+    font-size: 20px;
+    text-decoration:none;
+    letter-spacing: 1px;
+    color: black;
+    position: relative; 
+}
+
+#contact-button
+{
+    margin: 2.8% 3%;
+    padding: 2.2% 2.2%;
+    background-color: black;
+    color: white;
+}
+.background-img
+{
+    width: 100%; 
+    height: 50vh;
+    object-fit: cover;
+    border-bottom-right-radius: 150px;
+}
+h1
+{
+    font-size: 50px;
+    text-align: center;
+    margin: 3% 0%;
+}
+
+
+
+/*-------------------------Content----------------------->*/
+
+.service
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10%;
+}
+.works
+{ 
+    border-radius: 10px;
+    box-shadow: rgba(3, 89, 102, 0.5) 0px 5px 15px;
+    margin: 3% 5%;
+    padding: 2% 2%;
+    width: 40%;
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.5s;
+}
+.works:hover
+{
+    transform: scale(1.1);
+    
+}
+.topic
+{
+    font-size: 33px;
+}
+
+p
+{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 3% 0;
+    line-height: 40px;
+}
+button
+{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    margin: 5% 0;
+    padding: 4% 10%;  
+}
+button:hover
+{
+    background: rgb(53, 40, 111);
+    background: linear-gradient(90deg, rgba(53, 40, 111, 1) 0%, rgba(180, 54, 101, 1) 100%);
+}
+i
+{
+    font-size: 50px;
+    margin: 5% 0;
+}
+
+/* <-------------------------Footer-----------------------> */
+
+.footer {
+    color: white;
+    background-color: black;
+    height: auto;
+}
+
+.footer-details {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer-content {
+    width: 35%;
+}
+
+.ff {
+    margin: 4rem;
+}
+
+.footer-content h2 {
+    font-size: 2rem;
+}
+
+.footer-content p {
+    font-size: 1.3rem;
+    margin-top: 3rem;
+    line-height: 3rem;
+}
+
+.company h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.company i {
+    font-size: .6rem;
+    height: 15px;
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 3px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.company ul li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.company ul li a {
+    color: white;
+    font-size: 1.2rem;
+    transition: color 1s ease;
+}
+
+.company ul li a:hover {
+    text-decoration: underline;
+    color: #00ffff;
+}
+
+.touch h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.touch i {
+    transition: transform 0.4s ease;
+}
+
+.touch i:hover {
+    transform: scale(1.1);
+}
+
+.mm {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.mm i {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.mm p {
+    margin-left: 2rem;
+    font-size: 1.3rem;
+}
+
+.line-contain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr-line {
+    width: 85%;
+    height: 3px;
+    background-color: white;
+}
+
+.footer-icons {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.icon-box {
+    margin-bottom: 2rem;
+}
+
+.icon-box i {
+    font-size: 1.8rem;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: .5rem;
+    transition: transform 0.4s ease;
+}
+
+.icon-box i:hover {
+    transform: scale(1.1);
+}
+
+.copyright {
+    font-size: 1.3rem;
+}
+
+.copyr-color {
+    color: #00ffff;
+}
